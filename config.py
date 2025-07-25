@@ -32,7 +32,8 @@ GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after {DELETE_AFTER}
 
 
 #Premium varibles
-PAYMENT_QR = os.getenv('PAYMENT_QR', '<b>💢 Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs ‼️ \n\n'
+PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://envs.sh/YfJ.jpg')
+PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>💢 Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs ‼️ \n\n'
                                       '➤ 20ʀs - 1 Wᴇᴇᴋ\n➤ 30ʀs - 15 Dᴀʏꜱ\n'
                                       '➤ 50ʀs - 1 Mᴏɴᴛʜ\n➤For Custom Plan Dm Below\n\n'
                                       '🎁 Pʀᴇᴍɪᴜᴍ Fᴇᴀᴛᴜʀᴇs 🎁\n\n'
@@ -43,7 +44,6 @@ PAYMENT_QR = os.getenv('PAYMENT_QR', '<b>💢 Aᴠᴀɪʟᴀʙʟᴇ Pʟᴀɴs �
                                       'Cʟɪᴄᴋ Tᴏ Cʜᴇᴄᴋ Yᴏᴜʀ Aᴄᴛɪᴠᴇ Pʟᴀɴ /myplan\n\n'
                                       '💢 Mᴜsᴛ Sᴇɴᴅ Sᴄʀᴇᴇɴsʜᴏᴛ Aғᴛᴇʀ Pᴀʏᴍᴇɴᴛ\n\n'
                                       '‼️ Aғᴛᴇʀ Sᴇɴᴅɪɴɢ Sᴄʀᴇᴇɴsʜᴏᴛ Pʟᴇᴀsᴇ Gɪᴠᴇ Us Sᴏᴍᴇ Tɪᴍᴇ Tᴏ Aᴅᴅ Yᴏᴜ Iɴ Tʜᴇ Pʀᴇᴍɪᴜᴍ</b>')
-
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://luce36757:blQuzamKEQgEblAo@cluster0.a23ia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluser0")
